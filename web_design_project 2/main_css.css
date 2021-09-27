@@ -1,0 +1,287 @@
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.logo2{
+/*    display:inline-block;*/
+    width:50%;
+    margin-bottom:25%;
+}
+nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 110;
+      overflow: hidden;
+      background-color: # #ffe100;
+}
+
+ li {
+      float: left;
+}
+
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+    /* Change the link color on hover */
+li a:hover:not(.active) {
+  background-color: #ffe100;
+}
+.active {
+  background-color: #ff9900;
+}
+
+body{
+    color: black;
+}
+
+
+maintitle{
+    family
+}
+
+.grid {
+display: block;
+width: 80%;
+margin-left:10%;
+background-color:#ff9800;
+border:solid;
+border-radius:25px;
+}
+
+
+header{
+    
+    background-color: #ffe100;
+}
+
+.ordergrid{
+
+    width: 100%;
+    display: grid;
+    margin-left:1%;
+    margin-right:1%;
+    grid-gap: 5%;
+    grid-template-columns: 20% 20% 50%;
+    grid-template-rows: auto auto auto auto ;
+}
+
+.A{
+    grid-column:1;
+    grid-row:1;
+    border:solid;
+    border-radius:25px;
+    background-color: #ffffff;
+    border-color: black;
+}
+.B{
+    grid-column:2;
+    grid-row:1;
+    border:solid;
+    border-radius:25px;
+    background-color: #ffffff;
+    border-color: black;
+}
+.C{
+    grid-column:1;
+    grid-row:2;
+    border:solid;
+
+    border-radius:25px;
+    background-color: #ffffff;
+    border-color: black;
+}
+.D{
+    grid-column:2;
+    grid-row:2;
+    border:solid;
+    border-radius:25px;
+    background-color: #ffffff;
+    border-color: black;
+}
+.E{
+    float:right;
+    grid-column:3;
+    grid-row:1 / 4;
+  
+}
+.G{
+    grid-column:1;
+    grid-row:3;
+    border:solid;
+    border-radius:25px;
+    background-color: #ffffff;
+    border-color: black;
+}
+.H{
+    grid-column:2;
+    grid-row:3;
+    border:solid;
+    border-radius:25px;
+    background-color: #ffffff;
+    border-color: black;
+}
+.I{
+    grid-column:1;
+    grid-row:4;
+    border:solid;
+    border-radius:25px;
+    background-color: #ffffff;
+    border-color: black;
+}
+.J{
+    grid-column:2;
+    grid-row:4;
+    border:solid;
+    border-radius:25px;
+    background-color: #ffffff;
+    border-color: black;
+}
+
+.photo{
+    border-radius:25px;
+    background-color:#ffffff;
+}
+
+
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin-right:2%;
+}
+th, td {
+  padding: 2px;
+  text-align: center;
+}
+table#t01 {
+  width: 100%px;
+  background-color: #ff9800;
+}
+
+
+.payment yo{
+    
+    padding: 20px;
+    width: 100px;
+    margin: 100px;
+    
+}
+.flex-container {
+  display: grid;
+width:50%;
+    margin-left:25%;
+
+    
+}
+
+ .box1 {
+  background-color: #ff9800;
+  text-align: left;
+  line-height: 90%;
+  font-size: 20px;
+    grid-column:1;
+    grid-row:1;
+    border:solid;
+    border-radius:50px;
+    border-color: black;
+}
+
+pay [type=text]{
+    width: 100%;
+}
+
+input{
+    padding:5px;
+}
+
+.timergrid{
+    
+    display:block;
+    background-color:#ff9800;
+    border:solid;
+    border-radius:50px;
+    border-color: black;
+    width:40%;
+    height:30%;
+    margin-left:30%;
+    margin-top:10%;
+}
+.timer{
+    font-size:30px;
+    text-align:center;
+    
+}
+
+.main_box{
+    display:block;
+    background-color:#ff9800;
+    border:solid;
+    border-radius:25px;
+    border-color: black;
+    width:90%;
+    margin-left:5%;
+    margin-top:5%;
+    padding:1%;
+}
+.box_mat{
+    display:block;
+    background-color:#ff9800;
+    border:solid;
+    border-radius:25px;
+    border-color: black;
+    width:70%;
+    margin-left:15%;
+    margin-top:5%;
+    padding:1%;
+}
+.map{
+    
+    width:50%;
+    margin-left:25%;
+    margin-top:5%;
+    
+}
+.button_main{
+    width:100px;
+    background-color:#ffe100;
+    border:solid;
+    border-color:black;
+    border-radius:25px;
+    color:black;
+    font-size:20px;
+}
+.button_order{
+    float:right;
+    width:50px;
+    background-color:#ffe100;
+    border:solid;
+    border-color:black;
+    border-radius:10px;
+    color:black;
+    font-size:10px;
+}
+.button_back{
+    
+    float:right;
+    width:100px;
+    background-color:#ffe100;
+    border:solid;
+    border-color:black;
+    border-radius:25px;
+    color:black;
+    font-size:15px;
+    
+}
+

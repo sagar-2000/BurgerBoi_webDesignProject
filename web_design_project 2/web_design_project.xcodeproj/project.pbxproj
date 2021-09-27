@@ -1,0 +1,97 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		9C35DFE0244EBB7D001D29D2 /* rawmaterial.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = rawmaterial.php; sourceTree = "<group>"; };
+		9C4D0A5524339A2A001DE2B7 /* main.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = main.html; sourceTree = "<group>"; };
+		9C4D0A5624339B0F001DE2B7 /* main_css.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = main_css.css; sourceTree = "<group>"; };
+		9C4D0A8D2442F8C1001DE2B7 /* contact.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = contact.php; sourceTree = "<group>"; };
+		9C4D0A8E2442FABD001DE2B7 /* contact.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = contact.html; sourceTree = "<group>"; };
+		9C4D0A8F24435842001DE2B7 /* header.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = header.php; sourceTree = "<group>"; };
+		9C4D0A9024436EAD001DE2B7 /* main.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = main.php; sourceTree = "<group>"; };
+		9C4D0A91244374C0001DE2B7 /* form.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = form.php; sourceTree = "<group>"; };
+		9C4D0A92244387DE001DE2B7 /* about.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = about.php; sourceTree = "<group>"; };
+		9C4D0A932443900B001DE2B7 /* order.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = order.php; sourceTree = "<group>"; };
+		9C4D0A94244460D6001DE2B7 /* order-backend.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = "order-backend.php"; sourceTree = "<group>"; };
+		9C4D0A9524461552001DE2B7 /* sides.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = sides.php; sourceTree = "<group>"; };
+		9C4D72332448AB350042BE1B /* totalcheckout.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = totalcheckout.php; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		9C4D0A4E24339A0F001DE2B7 = {
+			isa = PBXGroup;
+			children = (
+				9C35DFE0244EBB7D001D29D2 /* rawmaterial.php */,
+				9C4D72332448AB350042BE1B /* totalcheckout.php */,
+				9C4D0A9524461552001DE2B7 /* sides.php */,
+				9C4D0A94244460D6001DE2B7 /* order-backend.php */,
+				9C4D0A932443900B001DE2B7 /* order.php */,
+				9C4D0A92244387DE001DE2B7 /* about.php */,
+				9C4D0A91244374C0001DE2B7 /* form.php */,
+				9C4D0A9024436EAD001DE2B7 /* main.php */,
+				9C4D0A8F24435842001DE2B7 /* header.php */,
+				9C4D0A8E2442FABD001DE2B7 /* contact.html */,
+				9C4D0A8D2442F8C1001DE2B7 /* contact.php */,
+				9C4D0A5624339B0F001DE2B7 /* main_css.css */,
+				9C4D0A5524339A2A001DE2B7 /* main.html */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		9C4D0A4F24339A0F001DE2B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+			};
+			buildConfigurationList = 9C4D0A5224339A0F001DE2B7 /* Build configuration list for PBXProject "web_design_project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C4D0A4E24339A0F001DE2B7;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		9C4D0A5324339A0F001DE2B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		9C4D0A5424339A0F001DE2B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C4D0A5224339A0F001DE2B7 /* Build configuration list for PBXProject "web_design_project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C4D0A5324339A0F001DE2B7 /* Debug */,
+				9C4D0A5424339A0F001DE2B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C4D0A4F24339A0F001DE2B7 /* Project object */;
+}
